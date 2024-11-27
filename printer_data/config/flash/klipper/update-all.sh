@@ -5,7 +5,7 @@ cd ~/klipper
 git pull
 
 export KCONFIG_CONFIG=m8p_v2.config
-ln -s "~/printer_data/config/flash/klipper/${KCONFIG_CONFIG}" "${KCONFIG_CONFIG}"
+ln -sf "~/printer_data/config/flash/klipper/${KCONFIG_CONFIG}" "${KCONFIG_CONFIG}"
 make clean KCONFIG_CONFIG="${KCONFIG_CONFIG}"
 make menuconfig KCONFIG_CONFIG="${KCONFIG_CONFIG}
 make KCONFIG_CONFIG="${KCONFIG_CONFIG}
