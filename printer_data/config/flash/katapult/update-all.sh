@@ -39,14 +39,10 @@ function update_m8p_v2 {
 function update_sb2209 {
   build sb2209 'SB2209'
   
-  # sudo dfu-util --list
-  # Found DFU: [0483:df11] ver=0200, devnum=4, cfg=1, intf=0, path="5-1.4", alt=1, name="@Option Bytes   /0x5200201C/01*88 e", serial="3560376F3431"
-  # Found DFU: [0483:df11] ver=0200, devnum=4, cfg=1, intf=0, path="5-1.4", alt=0, name="@Internal Flash   /0x08000000/8*128Kg", serial="3560376F3431"
-  
-  while ! sudo dfu-util --list | grep -s '\[0483:df11\]'; do # TODO: Verify serial?
-    read -p 'SB2209 needs to be in DFU mode. Please hold Boot0 and press reset to enter DFU mode. Press [Enter] to try again, or [Ctrl+C] to abort'
+  while ! lsusb | grep -s '2e8a:0003'; do
+    read -p 'SB2209 needs to be in Boot mode. Please hold Boot and press reset to enter Boot mode. Press [Enter] to try again, or [Ctrl+C] to abort'
   done
-  #sudo dfu-util -a 0 -D ~/katapult/out/katapult.bin --dfuse-address 0x08000000:force:leave -d 0483:df11
+  make flash FLASH_DEVICE=2e8a:0003
 }
 
 sudo service klipper stop
