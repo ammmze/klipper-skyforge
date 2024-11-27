@@ -12,6 +12,7 @@ make menuconfig KCONFIG_CONFIG="${KCONFIG_CONFIG}"
 make KCONFIG_CONFIG="${KCONFIG_CONFIG}"
 read -p "Manta M8P v2.0 bootloader built, please check above for any errors. Press [Enter] to continue flashing, or [Ctrl+C] to abort"
 
+# TODO: Flash out/katapult.bin
 # ./scripts/flash-sdcard.sh /dev/ttyAMA0 fysetc-spider-v1
 # read -p "Spider firmware flashed, please check above for any errors. Press [Enter] to continue, or [Ctrl+C] to abort"
 
