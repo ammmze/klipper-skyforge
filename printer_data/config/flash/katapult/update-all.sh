@@ -42,7 +42,7 @@ function update_sb2209 {
   while ! lsusb | grep -s '2e8a:0003'; do
     read -p 'SB2209 needs to be in Boot mode. Please hold Boot and press reset to enter Boot mode. Press [Enter] to try again, or [Ctrl+C] to abort'
   done
-  make flash FLASH_DEVICE=2e8a:0003
+  make flash KCONFIG_CONFIG=sb2209.config FLASH_DEVICE=2e8a:0003
 }
 
 sudo service klipper stop
