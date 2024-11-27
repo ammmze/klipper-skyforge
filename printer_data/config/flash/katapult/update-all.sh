@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+# Usage:
+# $ bash ~/printer_data/config/flash/katapult/update-all.sh [mcu's to update]
+#
+# Example:
+# $ bash ~/printer_data/config/flash/katapult/update-all.sh m8p_v2 sb2209
+
 MCU_MAIN=m8p_v2
 MCU_TOOLHEAD=sb2209
 MCUS="$@"
