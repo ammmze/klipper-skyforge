@@ -9,7 +9,7 @@ if [ -z "${MCUS}" ]; then
   exit 1
 fi
 
-for mcu in "${MCUS}"; do
+for mcu in ${MCUS}; do
   echo "doing mcu ${mcu}"
 done
 
