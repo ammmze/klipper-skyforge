@@ -1,5 +1,20 @@
 #!/usr/bin/env bash
 
+MCU_MAIN=m8p_v2
+MCU_TOOLHEAD=sb2209
+MCUS="$@"
+
+if [ -z "${MCUS}" ]; then
+  
+  exit 1
+fi
+
+for mcu in "${MCUS}"; do
+  echo "doing mcu ${mcu}"
+done
+
+exit
+
 sudo service klipper stop
 cd ~/katapult
 git pull
