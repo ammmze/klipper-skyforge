@@ -4,11 +4,11 @@ sudo service klipper stop
 cd ~/klipper
 git pull
 
-export KCONFIG_CONFIG=config.m8p_v2
+export KCONFIG_CONFIG=m8p_v2.config
 ln -sf "~/printer_data/config/flash/klipper/${KCONFIG_CONFIG}" "${KCONFIG_CONFIG}"
 make clean KCONFIG_CONFIG="${KCONFIG_CONFIG}"
-make menuconfig KCONFIG_CONFIG="${KCONFIG_CONFIG}
-make KCONFIG_CONFIG="${KCONFIG_CONFIG}
+make menuconfig KCONFIG_CONFIG="${KCONFIG_CONFIG}"
+make KCONFIG_CONFIG="${KCONFIG_CONFIG}"
 read -p "Manta M8P v2.0 firmware built, please check above for any errors. Press [Enter] to continue flashing, or [Ctrl+C] to abort"
 
 # ./scripts/flash-sdcard.sh /dev/ttyAMA0 fysetc-spider-v1
