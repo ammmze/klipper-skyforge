@@ -34,8 +34,6 @@ sudo service klipper stop
 cd ~/katapult
 git pull
 
-
-
 for mcu in ${MCUS}; do
   echo "doing mcu ${mcu}"
   case "$mcu" in
