@@ -5,7 +5,8 @@ MCU_TOOLHEAD=sb2209
 MCUS="$@"
 
 if [ -z "${MCUS}" ]; then
-  
+  echo "Please specify the MCU's to update. For example:"
+  echo "$0 ${MCU_MAIN} ${MCU_TOOLHEAD}"
   exit 1
 fi
 
