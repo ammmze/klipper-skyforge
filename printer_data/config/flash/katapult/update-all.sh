@@ -18,7 +18,7 @@ read -p "Manta M8P v2.0 bootloader built, please check above for any errors. Pre
 # Found DFU: [0483:df11] ver=0200, devnum=4, cfg=1, intf=0, path="5-1.4", alt=0, name="@Internal Flash   /0x08000000/8*128Kg", serial="3560376F3431"
 
 while ! sudo dfu-util --list | grep -s '\[0483:df11\]'; do
-  echo 'Manta M8P needs to be in DFU mode. Please hold Boot0 and press reset to enter DFU mode. Press [Enter] to try again, or [Ctrl+C] to abort'
+  read -p 'Manta M8P needs to be in DFU mode. Please hold Boot0 and press reset to enter DFU mode. Press [Enter] to try again, or [Ctrl+C] to abort'
 done
 #sudo dfu-util -a 0 -D ~/katapult/out/katapult.bin --dfuse-address 0x08000000:force:leave -d 0483:df11
 # ./scripts/flash-sdcard.sh /dev/ttyAMA0 fysetc-spider-v1
