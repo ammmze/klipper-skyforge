@@ -23,4 +23,12 @@ read -p "Manta M8P v2.0 firmware built, please check above for any errors. Press
 # read -p "RPi firmware built, please check above for any errors. Press [Enter] to continue flashing, or [Ctrl+C] to abort"
 # make flash KCONFIG_CONFIG=config.rpi
 
+export KCONFIG_CONFIG=sb2209.config
+touch ~/printer_data/config/flash/klipper/"${KCONFIG_CONFIG}"
+ln -sf ~/printer_data/config/flash/klipper/"${KCONFIG_CONFIG}" "${KCONFIG_CONFIG}"
+make clean KCONFIG_CONFIG="${KCONFIG_CONFIG}"
+make menuconfig KCONFIG_CONFIG="${KCONFIG_CONFIG}"
+make -j "$(nproc --all)" KCONFIG_CONFIG="${KCONFIG_CONFIG}"
+read -p "EBB SB2209 firmware built, please check above for any errors. Press [Enter] to continue flashing, or [Ctrl+C] to abort"
+
 sudo service klipper start
