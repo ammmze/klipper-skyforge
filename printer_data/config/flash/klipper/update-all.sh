@@ -31,5 +31,6 @@ make clean KCONFIG_CONFIG="${KCONFIG_CONFIG}"
 make menuconfig KCONFIG_CONFIG="${KCONFIG_CONFIG}"
 make -j "$(nproc --all)" KCONFIG_CONFIG="${KCONFIG_CONFIG}"
 read -p "EBB SB2209 firmware built, please check above for any errors. Press [Enter] to continue flashing, or [Ctrl+C] to abort"
+# python3 ~/katapult/scripts/flashtool.py -f ~/klipper/out/klipper.bin -i can0 -u 07e7141589f3
 
 sudo service klipper start
