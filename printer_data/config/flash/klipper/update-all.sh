@@ -11,6 +11,7 @@ make clean KCONFIG_CONFIG="${KCONFIG_CONFIG}"
 make menuconfig KCONFIG_CONFIG="${KCONFIG_CONFIG}"
 make -j "$(nproc --all)" KCONFIG_CONFIG="${KCONFIG_CONFIG}"
 read -p "Manta M8P v2.0 firmware built, please check above for any errors. Press [Enter] to continue flashing, or [Ctrl+C] to abort"
+# python3 ~/katapult/scripts/flashtool.py -f ~/klipper/out/klipper.bin -d /dev/serial/by-id/usb-katapult_stm32h723xx_3B002F001751313434373135-if00
 
 # sudo dfu-util -a 0 -d 0483:df11 --dfuse-address 0x08020000 -D ~/klipper/out/klipper.bin
 # ./scripts/flash-sdcard.sh /dev/ttyAMA0 fysetc-spider-v1
