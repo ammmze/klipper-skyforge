@@ -8,6 +8,7 @@
 
 MCU_MAIN=m8p_v2
 MCU_TOOLHEAD=sb2209
+MCU_AFC=afc_lite_1.0
 MCUS="$@"
 
 if [ -z "${MCUS}" ]; then
