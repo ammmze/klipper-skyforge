@@ -52,6 +52,15 @@ function update_sb2209 {
   make flash KCONFIG_CONFIG=sb2209.config FLASH_DEVICE=2e8a:0003
 }
 
+function update_afc_lite_1.0 {
+  build afc_lite_1.0 'AFC Lite v1.0'
+  
+  # while ! lsusb | grep -s '2e8a:0003'; do
+  #   read -p 'SB2209 needs to be in Boot mode. Please hold Boot and press reset to enter Boot mode. Press [Enter] to try again, or [Ctrl+C] to abort'
+  # done
+  # make flash KCONFIG_CONFIG=sb2209.config FLASH_DEVICE=2e8a:0003
+}
+
 sudo service klipper stop
 cd ~/katapult
 git pull
