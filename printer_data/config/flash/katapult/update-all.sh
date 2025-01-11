@@ -74,6 +74,9 @@ for mcu in ${MCUS}; do
     sb2209)
       update_sb2209
       ;;
+    afc_lite_1.0)
+      update_afc_lite_1.0
+      ;;
   esac
 done
 
