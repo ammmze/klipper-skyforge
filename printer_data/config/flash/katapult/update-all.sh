@@ -61,6 +61,15 @@ function update_afc_lite_1.0 {
   make flash KCONFIG_CONFIG=afc_lite_1.0.config FLASH_DEVICE=0483:df11
 }
 
+function update_ebb42 {
+  build ebb42 'EBB42'
+  
+  while ! lsusb | grep -s '0483:df11'; do
+    read -p 'EBB42 needs to be in Boot mode. Please hold Boot and press reset to enter Boot mode. Press [Enter] to try again, or [Ctrl+C] to abort'
+  done
+  make flash KCONFIG_CONFIG=ebb42.config FLASH_DEVICE=0483:df11
+}
+
 sudo service klipper stop
 cd ~/katapult
 git pull
