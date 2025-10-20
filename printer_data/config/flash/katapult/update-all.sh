@@ -70,6 +70,15 @@ function update_ebb42 {
   make flash KCONFIG_CONFIG=ebb42.config FLASH_DEVICE=0483:df11
 }
 
+function update_h36 {
+  build h36 'H36'
+  
+  while ! lsusb | grep -s '0483:df11'; do
+    read -p 'H36 needs to be in Boot mode. Please hold Boot and press reset to enter Boot mode. Press [Enter] to try again, or [Ctrl+C] to abort'
+  done
+  make flash KCONFIG_CONFIG=h36.config FLASH_DEVICE=0483:df11
+}
+
 sudo service klipper stop
 cd ~/katapult
 git pull
@@ -88,6 +97,9 @@ for mcu in ${MCUS}; do
       ;;
     ebb42)
       update_ebb42
+      ;;
+    h36)
+      update_h36
       ;;
   esac
 done
