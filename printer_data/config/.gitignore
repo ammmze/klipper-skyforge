@@ -1,0 +1,6 @@
+ukam/config/.placeholder
+ukam/config/*.old
+printer-20*.cfg
+logs/
+mmu-20*/
+tmp*.cfg
