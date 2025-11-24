@@ -4,4 +4,5 @@ printer-20*.cfg
 logs/
 mmu-20*/
 tmp*.cfg
+# keep this out ... its got secrets
 moonraker-obico.cfg
