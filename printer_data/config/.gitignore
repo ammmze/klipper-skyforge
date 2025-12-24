@@ -6,3 +6,4 @@ mmu-20*/
 tmp*.cfg
 # keep this out ... its got secrets
 moonraker-obico.cfg
+tmp/
