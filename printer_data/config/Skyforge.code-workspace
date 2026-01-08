@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../Happy-Hare"
+		},
+		{
+			"path": "../../klipper"
+		},
+		{
+			"path": "../../klippain_config"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../logs"
+		},
+		{
+			"path": "../../klipper-backup"
+		}
+	]
+}
