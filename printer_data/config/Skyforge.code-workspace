@@ -17,6 +17,9 @@
 		},
 		{
 			"path": "../../klipper-backup"
+		},
+		{
+			"path": "../../klippain_shaketune"
 		}
 	]
 }
