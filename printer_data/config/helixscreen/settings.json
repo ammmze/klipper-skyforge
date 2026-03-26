@@ -37,6 +37,9 @@
     "selected_strips": null
   },
   "log_path": "/tmp/helixscreen.log",
+  "motion": {
+    "jog_mode": 1
+  },
   "printer": {
     "leds": {
       "startup_brightness": null
