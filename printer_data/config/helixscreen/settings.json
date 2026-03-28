@@ -73,6 +73,21 @@
         "hotend": "heater_fan hotend_fan",
         "part": "fan"
       },
+      "filament": {
+        "external_spool": {
+          "assigned": true,
+          "bed_temp": 50,
+          "brand": "Polymaker",
+          "color_rgb": 13618390,
+          "material": "PLA",
+          "nozzle_temp_max": 0,
+          "nozzle_temp_min": 0,
+          "remaining_weight_g": 199.8417205810547,
+          "spool_name": "Polymaker PLA - PolyTerra Marble White",
+          "spoolman_id": 62,
+          "total_weight_g": 1000.0
+        }
+      },
       "filament_sensors": {
         "master_enabled": true,
         "sensors": [
@@ -220,7 +235,7 @@
             "temperature_sensor _emu_0_mcu",
             "temperature_sensor _emu_1_mcu"
           ],
-          "timestamp": "2026-03-27T07:37:05Z"
+          "timestamp": "2026-03-28T00:10:37Z"
         },
         "optional": []
       },
