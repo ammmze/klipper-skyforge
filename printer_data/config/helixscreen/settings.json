@@ -586,6 +586,10 @@
   "theme": {
     "preset": 0
   },
+  "tour": {
+    "completed": true,
+    "last_seen_version": 1
+  },
   "ui": {
     "cached_grid": {
       "home": {
