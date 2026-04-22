@@ -235,7 +235,7 @@
             "temperature_sensor _emu_0_mcu",
             "temperature_sensor _emu_1_mcu"
           ],
-          "timestamp": "2026-04-22T15:34:17Z"
+          "timestamp": "2026-04-22T16:11:44Z"
         },
         "optional": []
       },
@@ -256,6 +256,7 @@
         ],
         "last_brightness": 100,
         "last_color": "#FFFFFF",
+        "last_white": null,
         "led_on_at_start": false,
         "macro_devices": [],
         "selected": [],
@@ -570,6 +571,9 @@
         }
       },
       "printer_name": "Skyforge",
+      "probe_sensors": {
+        "sensors": null
+      },
       "temp_sensors": {
         "bed": "heater_bed",
         "hotend": "extruder"
