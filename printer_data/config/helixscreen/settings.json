@@ -40,6 +40,19 @@
   "motion": {
     "jog_mode": 2
   },
+  "print_start_history": {
+    "entries": [
+      {
+        "phases": {
+          "7": 164,
+          "9": 1
+        },
+        "temp_bucket": 1,
+        "timestamp": 1777783328,
+        "total": 273
+      }
+    ]
+  },
   "printer": {
     "leds": {
       "startup_brightness": null
@@ -76,15 +89,15 @@
       "filament": {
         "external_spool": {
           "assigned": true,
-          "bed_temp": 50,
-          "brand": "Polymaker",
-          "color_rgb": 13618390,
+          "bed_temp": 0,
+          "brand": "Bambu Lab",
+          "color_rgb": 274262,
           "material": "PLA",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 136.685302734375,
-          "spool_name": "Polymaker PLA - PolyTerra Marble White",
-          "spoolman_id": 62,
+          "remaining_weight_g": 449.85504150390625,
+          "spool_name": "Bambu Lab PLA - Matte Dark Blue",
+          "spoolman_id": 46,
           "total_weight_g": 1000.0
         }
       },
@@ -586,6 +599,16 @@
   "telemetry_enabled": false,
   "theme": {
     "preset": 0
+  },
+  "thermal": {
+    "rates": {
+      "extruder": {
+        "heat_rate": 3.4829154014587402
+      },
+      "heater_bed": {
+        "heat_rate": 2.407777786254883
+      }
+    }
   },
   "tour": {
     "completed": true,
