@@ -38,7 +38,7 @@
   },
   "log_path": "/tmp/helixscreen.log",
   "motion": {
-    "jog_mode": 2
+    "jog_mode": 1
   },
   "print_start_history": {
     "entries": [
