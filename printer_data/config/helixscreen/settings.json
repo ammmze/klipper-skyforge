@@ -91,6 +91,14 @@
         "temp_bucket": 1,
         "timestamp": 1779221926,
         "total": 296
+      },
+      {
+        "phases": {
+          "9": 1
+        },
+        "temp_bucket": 2,
+        "timestamp": 1779222731,
+        "total": 186
       }
     ]
   },
@@ -130,15 +138,15 @@
       "filament": {
         "external_spool": {
           "assigned": true,
-          "bed_temp": 0,
+          "bed_temp": 60,
           "brand": "Bambu Lab",
-          "color_rgb": 274262,
-          "material": "PLA",
+          "color_rgb": 16777215,
+          "material": "PLA Basic",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 337.8069152832031,
-          "spool_name": "Bambu Lab PLA - Matte Dark Blue",
-          "spoolman_id": 46,
+          "remaining_weight_g": 669.3165283203125,
+          "spool_name": "Bambu Lab PLA Basic - Jade White",
+          "spoolman_id": 68,
           "total_weight_g": 1000.0
         }
       },
@@ -644,10 +652,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 1.8647117614746094
+        "heat_rate": 1.3004401922225952
       },
       "heater_bed": {
-        "heat_rate": 2.9013381004333496
+        "heat_rate": 2.5576579570770264
       }
     }
   },
