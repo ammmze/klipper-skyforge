@@ -122,15 +122,15 @@
       "filament": {
         "external_spool": {
           "assigned": true,
-          "bed_temp": 0,
+          "bed_temp": 60,
           "brand": "Bambu Lab",
-          "color_rgb": 274262,
-          "material": "PLA",
+          "color_rgb": 16777215,
+          "material": "PLA Basic",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 412.5234069824219,
-          "spool_name": "Bambu Lab PLA - Matte Dark Blue",
-          "spoolman_id": 46,
+          "remaining_weight_g": 676.0947875976563,
+          "spool_name": "Bambu Lab PLA Basic - Jade White",
+          "spoolman_id": 68,
           "total_weight_g": 1000.0
         }
       },
