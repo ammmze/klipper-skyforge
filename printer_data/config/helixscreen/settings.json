@@ -83,6 +83,14 @@
         "temp_bucket": 1,
         "timestamp": 1779167918,
         "total": 266
+      },
+      {
+        "phases": {
+          "7": 188
+        },
+        "temp_bucket": 1,
+        "timestamp": 1779221926,
+        "total": 296
       }
     ]
   },
@@ -128,7 +136,7 @@
           "material": "PLA",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 338.02117919921875,
+          "remaining_weight_g": 337.8069152832031,
           "spool_name": "Bambu Lab PLA - Matte Dark Blue",
           "spoolman_id": 46,
           "total_weight_g": 1000.0
@@ -636,10 +644,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 1.4934799671173096
+        "heat_rate": 1.8647117614746094
       },
       "heater_bed": {
-        "heat_rate": 3.7440030574798584
+        "heat_rate": 2.9013381004333496
       }
     }
   },
