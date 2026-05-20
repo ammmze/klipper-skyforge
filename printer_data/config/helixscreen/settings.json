@@ -44,6 +44,14 @@
     "entries": [
       {
         "phases": {
+          "9": 1
+        },
+        "temp_bucket": 2,
+        "timestamp": 1779222731,
+        "total": 186
+      },
+      {
+        "phases": {
           "7": 164,
           "9": 1
         },
@@ -94,11 +102,11 @@
       },
       {
         "phases": {
-          "9": 1
+          "7": 183
         },
-        "temp_bucket": 2,
-        "timestamp": 1779222731,
-        "total": 186
+        "temp_bucket": 1,
+        "timestamp": 1779242336,
+        "total": 290
       }
     ]
   },
@@ -144,7 +152,7 @@
           "material": "PLA Basic",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 669.3165283203125,
+          "remaining_weight_g": 664.9430541992188,
           "spool_name": "Bambu Lab PLA Basic - Jade White",
           "spoolman_id": 68,
           "total_weight_g": 1000.0
@@ -652,10 +660,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 1.3004401922225952
+        "heat_rate": 1.4294549226760864
       },
       "heater_bed": {
-        "heat_rate": 2.5576579570770264
+        "heat_rate": 2.85136079788208
       }
     }
   },
