@@ -146,15 +146,15 @@
       "filament": {
         "external_spool": {
           "assigned": true,
-          "bed_temp": 60,
-          "brand": "Bambu Lab",
-          "color_rgb": 16777215,
-          "material": "PLA Basic",
+          "bed_temp": 50,
+          "brand": "SainSmart",
+          "color_rgb": 3684408,
+          "material": "PLA",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 664.9430541992188,
-          "spool_name": "Bambu Lab PLA Basic - Jade White",
-          "spoolman_id": 68,
+          "remaining_weight_g": 133.22271728515625,
+          "spool_name": "SainSmart PLA - Matte Black GT-3  High Speed",
+          "spoolman_id": 63,
           "total_weight_g": 1000.0
         }
       },
