@@ -3,7 +3,7 @@
   "appearance": {
     "toolhead_style": 2
   },
-  "config_version": 16,
+  "config_version": 17,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
