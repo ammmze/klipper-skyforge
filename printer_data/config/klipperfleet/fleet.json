@@ -7,7 +7,7 @@
         "interface": "can0",
         "baudrate": 250000,
         "notes": "",
-        "is_katapult": true,
+        "is_katapult": false,
         "is_bridge": false,
         "serial_id": null,
         "dfu_id": null,
