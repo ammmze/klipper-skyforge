@@ -96,24 +96,5 @@
         "use_dfu_exit": false,
         "exclude_from_batch": false,
         "custom_make_command": null
-    },
-    {
-        "name": "mcu scanner",
-        "id": "acd8442fbb35",
-        "profile": "",
-        "method": "can",
-        "interface": "can0",
-        "baudrate": 250000,
-        "notes": "",
-        "is_katapult": false,
-        "is_bridge": false,
-        "serial_id": null,
-        "dfu_id": null,
-        "magic_baud_tested": false,
-        "use_magic_baud": false,
-        "dfu_exit_tested": false,
-        "use_dfu_exit": false,
-        "exclude_from_batch": false,
-        "custom_make_command": null
     }
 ]
