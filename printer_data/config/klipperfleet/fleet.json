@@ -17,9 +17,9 @@
         "use_dfu_exit": false,
         "exclude_from_batch": false,
         "custom_make_command": null,
-        "last_flashed": "2026-06-09 20:56:47",
-        "flashed_version": "v0.13.0-689-g2fb3d54e",
-        "flashed_commit": "2fb3d54e2f80"
+        "last_flashed": "2026-06-09 21:35:01",
+        "flashed_version": "v0.13.0-694-g4c137ed3",
+        "flashed_commit": "4c137ed3e58b"
     },
     {
         "name": "mcu emu1",
@@ -38,7 +38,10 @@
         "dfu_exit_tested": false,
         "use_dfu_exit": false,
         "exclude_from_batch": false,
-        "custom_make_command": null
+        "custom_make_command": null,
+        "last_flashed": "2026-06-09 21:35:12",
+        "flashed_version": "v0.13.0-694-g4c137ed3",
+        "flashed_commit": "4c137ed3e58b"
     },
     {
         "name": "mcu mmu",
@@ -57,7 +60,10 @@
         "dfu_exit_tested": false,
         "use_dfu_exit": false,
         "exclude_from_batch": false,
-        "custom_make_command": null
+        "custom_make_command": null,
+        "last_flashed": "2026-06-09 21:35:24",
+        "flashed_version": "v0.13.0-694-g4c137ed3",
+        "flashed_commit": "4c137ed3e58b"
     },
     {
         "name": "mcu toolhead",
@@ -76,7 +82,10 @@
         "dfu_exit_tested": false,
         "use_dfu_exit": false,
         "exclude_from_batch": false,
-        "custom_make_command": null
+        "custom_make_command": null,
+        "last_flashed": "2026-06-09 21:35:35",
+        "flashed_version": "v0.13.0-694-g4c137ed3",
+        "flashed_commit": "4c137ed3e58b"
     },
     {
         "name": "mcu",
@@ -96,8 +105,8 @@
         "use_dfu_exit": false,
         "exclude_from_batch": false,
         "custom_make_command": null,
-        "last_flashed": "2026-06-09 21:30:02",
-        "flashed_version": "v0.13.0-689-g2fb3d54e",
-        "flashed_commit": "2fb3d54e2f80"
+        "last_flashed": "2026-06-09 21:35:43",
+        "flashed_version": "v0.13.0-694-g4c137ed3",
+        "flashed_commit": "4c137ed3e58b"
     }
 ]
