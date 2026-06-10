@@ -95,6 +95,9 @@
         "dfu_exit_tested": false,
         "use_dfu_exit": false,
         "exclude_from_batch": false,
-        "custom_make_command": null
+        "custom_make_command": null,
+        "last_flashed": "2026-06-09 21:30:02",
+        "flashed_version": "v0.13.0-689-g2fb3d54e",
+        "flashed_commit": "2fb3d54e2f80"
     }
 ]
