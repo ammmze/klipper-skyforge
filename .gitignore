@@ -10,3 +10,4 @@ printer_data.bak
 *.zip
 *.stdata
 **/klipperfleet/artifacts/
+**/klipperfleet/ui/
