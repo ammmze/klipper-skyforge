@@ -112,7 +112,7 @@
     {
         "name": "mcu emu99",
         "id": "3309c79f5c79",
-        "profile": "",
+        "profile": "EBB42 v1.2",
         "method": "can",
         "interface": "can0",
         "baudrate": 250000,
