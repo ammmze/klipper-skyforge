@@ -149,5 +149,24 @@
         "last_flashed": "2026-08-06 20:52:59",
         "flashed_version": "v0.13.0-729-gcab2f004",
         "flashed_commit": "cab2f00408da"
+    },
+    {
+        "name": "mcu emu??",
+        "id": "acd8442fbb35",
+        "profile": "EBB42 v1.2",
+        "method": "can",
+        "interface": "can0",
+        "baudrate": 250000,
+        "notes": "",
+        "is_katapult": true,
+        "is_bridge": false,
+        "serial_id": null,
+        "dfu_id": null,
+        "magic_baud_tested": false,
+        "use_magic_baud": false,
+        "dfu_exit_tested": false,
+        "use_dfu_exit": false,
+        "exclude_from_batch": false,
+        "custom_make_command": null
     }
 ]
