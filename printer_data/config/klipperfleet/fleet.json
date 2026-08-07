@@ -17,9 +17,9 @@
         "use_dfu_exit": false,
         "exclude_from_batch": false,
         "custom_make_command": null,
-        "last_flashed": "2026-06-09 21:35:01",
-        "flashed_version": "v0.13.0-694-g4c137ed3",
-        "flashed_commit": "4c137ed3e58b"
+        "last_flashed": "2026-08-06 20:42:26",
+        "flashed_version": "v0.13.0-729-gcab2f004",
+        "flashed_commit": "cab2f00408da"
     },
     {
         "name": "mcu emu1",
@@ -39,9 +39,9 @@
         "use_dfu_exit": false,
         "exclude_from_batch": false,
         "custom_make_command": null,
-        "last_flashed": "2026-06-09 21:35:12",
-        "flashed_version": "v0.13.0-694-g4c137ed3",
-        "flashed_commit": "4c137ed3e58b"
+        "last_flashed": "2026-08-06 20:42:36",
+        "flashed_version": "v0.13.0-729-gcab2f004",
+        "flashed_commit": "cab2f00408da"
     },
     {
         "name": "mcu mmu",
@@ -83,9 +83,9 @@
         "use_dfu_exit": false,
         "exclude_from_batch": false,
         "custom_make_command": null,
-        "last_flashed": "2026-06-09 21:35:35",
-        "flashed_version": "v0.13.0-694-g4c137ed3",
-        "flashed_commit": "4c137ed3e58b"
+        "last_flashed": "2026-08-06 20:42:47",
+        "flashed_version": "v0.13.0-729-gcab2f004",
+        "flashed_commit": "cab2f00408da"
     },
     {
         "name": "mcu",
@@ -105,8 +105,8 @@
         "use_dfu_exit": false,
         "exclude_from_batch": false,
         "custom_make_command": null,
-        "last_flashed": "2026-06-09 21:35:43",
-        "flashed_version": "v0.13.0-694-g4c137ed3",
-        "flashed_commit": "4c137ed3e58b"
+        "last_flashed": "2026-08-06 20:42:55",
+        "flashed_version": "v0.13.0-729-gcab2f004",
+        "flashed_commit": "cab2f00408da"
     }
 ]
