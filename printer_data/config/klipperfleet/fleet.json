@@ -151,9 +151,9 @@
         "flashed_commit": "cab2f00408da"
     },
     {
-        "name": "mcu emu??",
+        "name": "mcu scanner",
         "id": "acd8442fbb35",
-        "profile": "EBB42 v1.2",
+        "profile": "",
         "method": "can",
         "interface": "can0",
         "baudrate": 250000,
