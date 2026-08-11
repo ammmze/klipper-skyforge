@@ -145,7 +145,10 @@
         "dfu_exit_tested": false,
         "use_dfu_exit": false,
         "exclude_from_batch": false,
-        "custom_make_command": null
+        "custom_make_command": null,
+        "last_flashed": "2026-08-11 07:57:21",
+        "flashed_version": "v0.13.0-729-gcab2f004",
+        "flashed_commit": "cab2f00408da"
     },
     {
         "name": "mcu scanner",
