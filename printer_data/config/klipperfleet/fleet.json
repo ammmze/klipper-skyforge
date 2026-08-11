@@ -129,7 +129,7 @@
         "custom_make_command": null
     },
     {
-        "name": "mcu emu?",
+        "name": "mcu emu2",
         "id": "d6626bb484e8",
         "profile": "EBB42 v1.2",
         "method": "can",
@@ -145,10 +145,7 @@
         "dfu_exit_tested": false,
         "use_dfu_exit": false,
         "exclude_from_batch": false,
-        "custom_make_command": null,
-        "last_flashed": "2026-08-06 20:52:59",
-        "flashed_version": "v0.13.0-729-gcab2f004",
-        "flashed_commit": "cab2f00408da"
+        "custom_make_command": null
     },
     {
         "name": "mcu scanner",
